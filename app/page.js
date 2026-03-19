@@ -24,7 +24,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center relative overflow-hidden">
         <div className="absolute inset-0 bg-black/70"></div>
 
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-10">
+        <div className="-mt-10 md:mt-0 relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-10">
           <div className="grid md:grid-cols-2 gap-4  md:mt-0 lg:gap-28 items-center min-h-[90vh]">
             {/* LEFT: BOOK COVER (centered on mobile, right-aligned on desktop) */}
             <div className="flex justify-center md:justify-end">
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
 
             {/* RIGHT: ALL TEXT + BUTTON (stacked, left-aligned on desktop) */}
-            <div className="text-center md:text-left pt-2 md:pt-0">
+            <div className="text-center md:text-left pt-0 md:pt-0">
               <div className="hidden  md:block">
                 <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-widest text-white leading-none mb-4">
                   FALSE
