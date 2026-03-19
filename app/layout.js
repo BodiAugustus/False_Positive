@@ -42,7 +42,7 @@ export const metadata = {
       "False Positive – The Explosive True Story of Tristan Nettles and Ashley Oosthuizen",
     description:
       "Ashley Oosthuizen's freedom is on the line. This gripping true-crime memoir is more than a book — it's a movement. Every pre-order helps fight for her freedom. #FreeAshleyOosthuizen",
-    url: "https://falsepositivebook.com", // ← change to your actual domain when ready
+    url: "https://FalsePositiveNovel.com", // ← change to your actual domain when ready
     siteName: "False Positive | Tristan Nettles",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://falsepositivebook.com", // ← update with your live domain
+    canonical: "https://FalsePositiveNovel.com", // ← update with your live domain
   },
 
   authors: [
@@ -106,7 +106,7 @@ export const metadata = {
     apple: "/apple-icon.png",
   },
 
-  metadataBase: new URL("https://falsepositivebook.com"), // ← change to your real domain
+  metadataBase: new URL("https://FalsePositiveNovel.com"), // ← change to your real domain
 };
 
 export default function RootLayout({ children }) {
