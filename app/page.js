@@ -62,7 +62,7 @@ export default function Home() {
               </a>
 
               <p className="text-white/80 text-lg max-w-md md:max-w-none mx-auto md:mx-0">
-                Every copy helps free Ashley Oosthuizen from Thai prison
+                Every copy sold helps free Ashley Oosthuizen from Thai prison
               </p>
             </div>
           </div>
