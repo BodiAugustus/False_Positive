@@ -40,7 +40,7 @@ export default function Home() {
             </div>
 
             {/* RIGHT: ALL TEXT + BUTTON (stacked, left-aligned on desktop) */}
-            <div className="text-center md:text-left pt-0 md:pt-0">
+            <div className="text-center md:text-left -mt-10 md:mt-0 md:pt-0">
               <div className="hidden  md:block">
                 <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-widest text-white leading-none mb-4">
                   FALSE
