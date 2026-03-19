@@ -183,6 +183,15 @@ export default function Home() {
       <section className="py-24 bg-[#0A0A0A] px-6">
         <div className="max-w-2xl mx-auto text-center">
           <NewsletterSignup />
+          <div className="mt-2">
+            <a
+              href="https://www.tristannettles.com"
+              target="_blank"
+              className="inline-block text-[#00F5FF] hover:text-[#00e5FF] text-xl underline"
+            >
+              Visit Tristan Nettles Author Site →
+            </a>
+          </div>
         </div>
       </section>
 
