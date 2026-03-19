@@ -183,7 +183,7 @@ export default function Home() {
       <section className="py-24 bg-[#0A0A0A] px-6">
         <div className="max-w-2xl mx-auto text-center">
           <NewsletterSignup />
-          <div className="mt-2">
+          <div className="mt-8">
             <a
               href="https://www.tristannettles.com"
               target="_blank"
