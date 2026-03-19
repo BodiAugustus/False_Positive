@@ -199,15 +199,31 @@ export default function Home() {
       <footer className="bg-black py-12 border-t border-[#00F5FF]/30">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <div className="flex justify-center gap-8 mb-8">
-            <span className="text-[#00F5FF] font-bold">SIMON & SCHUSTER</span>
-            <span className="text-[#00F5FF] font-bold">HISTRIA BOOKS</span>
+            <a
+              href="https://www.simonandschuster.com/"
+              target="_blank"
+              className="text-[#00F5FF] font-bold cursor-pointer"
+            >
+              SIMON & SCHUSTER
+            </a>
+            <a
+              href="https://histriabooks.com/"
+              target="_blank"
+              className="text-[#00F5FF] font-bold cursor-pointer"
+            >
+              HISTRIA BOOKS
+            </a>
           </div>
-          <p className="text-white/60">
+          <p
+            href="https://www.FreeAshley.org/"
+            target="_blank"
+            className="text-white/60 cursor-pointergit"
+          >
             © 2026 Tristan Nettles • All Rights Reserved
           </p>
-          <p className="text-[#00F5FF]/70 text-sm mt-4">
+          <a className="text-[#00F5FF]/70 text-sm mt-4">
             #FreeAshleyOosthuizen
-          </p>
+          </a>
         </div>
       </footer>
     </>
