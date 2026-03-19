@@ -214,13 +214,13 @@ export default function Home() {
               HISTRIA BOOKS
             </a>
           </div>
-          <p
+          <a
             href="https://www.FreeAshley.org/"
             target="_blank"
             className="text-white/60 cursor-pointergit"
           >
             © 2026 Tristan Nettles • All Rights Reserved
-          </p>
+          </a>
           <a className="text-[#00F5FF]/70 text-sm mt-4">
             #FreeAshleyOosthuizen
           </a>
