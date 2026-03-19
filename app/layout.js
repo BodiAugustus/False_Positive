@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import { Oswald, Inter } from "next/font/google";
 import "./globals.css";
 
