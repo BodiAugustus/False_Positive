@@ -25,7 +25,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/70"></div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-10">
-          <div className="grid md:grid-cols-2 gap-12 lg:gap-28 items-center min-h-[90vh]">
+          <div className="grid md:grid-cols-2 gap-4 mt-10 md:mt-0 lg:gap-28 items-center min-h-[90vh]">
             {/* LEFT: BOOK COVER (centered on mobile, right-aligned on desktop) */}
             <div className="flex justify-center md:justify-end">
               <div className="relative w-64 sm:w-72 md:w-80 lg:w-96 aspect-[2/3] drop-shadow-2xl border-4 border-[#00F5FF]/40 rounded-2xl overflow-hidden">
@@ -41,18 +41,19 @@ export default function Home() {
 
             {/* RIGHT: ALL TEXT + BUTTON (stacked, left-aligned on desktop) */}
             <div className="text-center md:text-left pt-8 md:pt-0">
-              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-widest text-white leading-none mb-4">
-                FALSE
-                <br />
-                POSITIVE
-              </h1>
+              <div className="hidden  md:block">
+                <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-widest text-white leading-none mb-4">
+                  FALSE
+                  <br />
+                  POSITIVE
+                </h1>
 
-              <p className="text-2xl sm:text-3xl md:text-4xl text-[#00F5FF] font-light tracking-widest mb-10">
-                A SOUTHERN BOY&apos;S
-                <br />
-                DESCENT INTO THE GLOBAL DRUG WAR
-              </p>
-
+                <p className="text-2xl sm:text-3xl md:text-4xl text-[#00F5FF] font-light tracking-widest mb-10">
+                  A SOUTHERN BOY&apos;S
+                  <br />
+                  DESCENT INTO THE GLOBAL DRUG WAR
+                </p>
+              </div>
               <a
                 href="https://www.simonandschuster.com/books/False-Positive/Tristan-Nettles/9781592117772"
                 target="_blank"
@@ -62,7 +63,7 @@ export default function Home() {
               </a>
 
               <p className="text-white/80 text-lg max-w-md md:max-w-none mx-auto md:mx-0">
-                Every copy sold helps free Ashley Oosthuizen from Thai prison
+                Every book sold helps free Ashley Oosthuizen from Thai prison
               </p>
             </div>
           </div>
@@ -91,7 +92,8 @@ export default function Home() {
 
                 <p className="mb-6">
                   From a troubled childhood in the American South to the
-                  battle-scarred fields of Ukraine, Tristan Seth Nettles has
+                  battle-scarred fields of Ukraine,{" "}
+                  <span className="font-bold">Tristan Seth Nettles</span> has
                   lived a life that almost defies belief.
                 </p>
 
@@ -110,15 +112,19 @@ export default function Home() {
                   invasions in Mississippi to mountain top temples in Nepal,
                   from Southeast Asian prisons to battlefields in Eastern Europe
                   — chasing truth, redemption, and ultimately, justice. When the
-                  woman he loves, Ashley Oosthuizen, is wrongfully imprisoned
-                  and sentenced to death in Thailand, Tristan&apos;s mission
-                  becomes clear. What began as a reckless search for freedom
-                  turns into an international fight for someone else&apos;s.
+                  woman he loves,{" "}
+                  <span className="font-bold">Ashley Oosthuizen</span>, is
+                  wrongfully imprisoned and sentenced to death in Thailand,
+                  Tristan&apos;s mission becomes clear. What began as a reckless
+                  search for freedom turns into an international fight for
+                  someone else&apos;s.
                 </p>
                 <p className="mb-6">
                   Told with dark humor, brutal honesty, and heart-stopping
                   intensity, False Positive is a modern epic — a real-life
                   odyssey in the spirit of Forrest Gump and Catch Me If You Can.
+                </p>
+                <p className="text-[#00f5ff] mb-6">
                   It&apos;s a raw, unforgettable journey through love, loss,
                   crime, war, and the deep, messy beauty of being human.
                 </p>
