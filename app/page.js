@@ -81,6 +81,9 @@ export default function Home() {
             {/* LEFT: SCROLLABLE TEXT BOX */}
             <div className="bg-[#111111] border border-[#00F5FF]/30 rounded-3xl p-8 md:p-10 max-h-[75vh] overflow-y-auto scrollbar-thin scrollbar-thumb-[#00F5FF]/70 scrollbar-track-transparent pr-6">
               <div className="prose prose-invert text-lg leading-relaxed text-white/90">
+                <h3 className="text-3xl md:text-4xl font-bold text-[#00F5FF] mb-6 tracking-wide">
+                  Synopsis
+                </h3>
                 <p className="mb-6">
                   <span className="font-bold">False Positive</span> is a
                   gripping, unflinching memoir that takes readers from the
