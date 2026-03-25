@@ -62,9 +62,7 @@ export default function Home() {
                   POSITIVE
                 </h1>
                 <p className="text-2xl sm:text-3xl md:text-4xl text-[#00F5FF] font-light tracking-widest mb-10">
-                  A SOUTHERN BOY&apos;S
-                  <br />
-                  DESCENT INTO THE GLOBAL DRUG WAR
+                  A MODERN ODYSSEY
                 </p>
               </div>
               <a
