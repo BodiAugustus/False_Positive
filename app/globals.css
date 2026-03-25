@@ -16,9 +16,3 @@ h3 {
 }
 
 /* Hero banner – no heavy overlay */
-.hero-bg {
-  background-image: url("/banner2.webp");
-  background-size: cover;
-  background-position: center 30%; /* moves image up slightly */
-  background-attachment: fixed;
-}

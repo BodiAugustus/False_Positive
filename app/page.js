@@ -21,12 +21,26 @@ export default function Home() {
     <>
       {/* HERO – gritty collage banner + book cover overlay */}
       {/* HERO SECTION – SPLIT LAYOUT ON MD+ SCREENS */}
-      <section className="min-h-screen flex items-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-black/70"></div>
+      {/* HERO SECTION – SHARP, RESPONSIVE COLLAGE BANNER */}
+      <section className="relative min-h-screen flex items-center overflow-hidden">
+        {/* ✅ SHARP BACKGROUND IMAGE – this is the fix */}
+        <Image
+          src="/banner4.webp"
+          alt=""
+          fill
+          className="object-cover object-center"
+          quality={95}
+          priority
+          sizes="100vw"
+        />
 
-        <div className="-mt-10 md:mt-0 relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-10">
-          <div className="grid md:grid-cols-2 gap-4  md:mt-0 lg:gap-28 items-center min-h-[90vh]">
-            {/* LEFT: BOOK COVER (centered on mobile, right-aligned on desktop) */}
+        {/* Light overlay – matches your original subtle gradient, no heavy darkening */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/15 to-black/35" />
+
+        {/* Content layer – everything you already have */}
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-10">
+          <div className="grid md:grid-cols-2 gap-4 md:mt-0 lg:gap-28 items-center min-h-[90vh]">
+            {/* LEFT: BOOK COVER (unchanged) */}
             <div className="flex justify-center md:justify-end">
               <div className="relative w-64 sm:w-72 md:w-80 lg:w-96 aspect-[2/3] drop-shadow-2xl border-4 border-[#00F5FF]/40 rounded-2xl overflow-hidden">
                 <Image
@@ -39,15 +53,14 @@ export default function Home() {
               </div>
             </div>
 
-            {/* RIGHT: ALL TEXT + BUTTON (stacked, left-aligned on desktop) */}
-            <div className="text-center md:text-left -mt-10 md:mt-0 md:pt-0">
-              <div className="hidden  md:block">
+            {/* RIGHT: TEXT + BUTTON (unchanged) */}
+            <div className="text-center md:text-left -mt-24 md:mt-0 md:pt-0">
+              <div className="hidden md:block">
                 <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-widest text-white leading-none mb-4">
                   FALSE
                   <br />
                   POSITIVE
                 </h1>
-
                 <p className="text-2xl sm:text-3xl md:text-4xl text-[#00F5FF] font-light tracking-widest mb-10">
                   A SOUTHERN BOY&apos;S
                   <br />
@@ -61,7 +74,6 @@ export default function Home() {
               >
                 PRE-ORDER NOW
               </a>
-
               <p className="text-white/80 text-lg max-w-md md:max-w-none mx-auto md:mx-0">
                 Every book sold helps free Ashley Oosthuizen from Thai prison
               </p>
