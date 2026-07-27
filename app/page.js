@@ -44,7 +44,7 @@ export default function Home() {
             <div className="flex justify-center md:justify-end">
               <div className="relative w-64 sm:w-72 md:w-80 lg:w-96 aspect-[2/3] drop-shadow-2xl border-4 border-[#00F5FF]/40 rounded-2xl overflow-hidden">
                 <Image
-                  src="/cover2.jpg"
+                  src="/2.png"
                   alt="False Positive by Tristan Nettles"
                   fill
                   className="object-cover"
